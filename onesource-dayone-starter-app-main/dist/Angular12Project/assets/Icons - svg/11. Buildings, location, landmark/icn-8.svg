@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 3.5C3 3.22386 3.22386 3 3.5 3H13.5C13.7761 3 14 3.22386 14 3.5V20.5C14 20.7761 13.7761 21 13.5 21H3.5C3.22386 21 3 20.7761 3 20.5V3.5ZM4 4V20H13V4H4Z" fill="#0062E1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 8.5C13 8.22386 13.2239 8 13.5 8H19.5C19.8978 8 20.2794 8.15804 20.5607 8.43934C20.842 8.72065 21 9.10218 21 9.5V20.5C21 20.7761 20.7761 21 20.5 21H13.5C13.2239 21 13 20.7761 13 20.5V8.5ZM14 9V20H20V9.5C20 9.36739 19.9473 9.24021 19.8536 9.14645C19.7598 9.05268 19.6326 9 19.5 9H14Z" fill="#0062E1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 20.5C1 20.2239 1.22386 20 1.5 20H22.5C22.7761 20 23 20.2239 23 20.5C23 20.7761 22.7761 21 22.5 21H1.5C1.22386 21 1 20.7761 1 20.5Z" fill="#0062E1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15 10H19V11H15V10Z" fill="#0062E1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15 12H19V13H15V12Z" fill="#0062E1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15 14H19V15H15V14Z" fill="#0062E1"/>
+<path d="M6 5H5V6H6V5Z" fill="#0062E1"/>
+<path d="M8 5H7V6H8V5Z" fill="#0062E1"/>
+<path d="M10 5H9V6H10V5Z" fill="#0062E1"/>
+<path d="M12 5H11V6H12V5Z" fill="#0062E1"/>
+<path d="M6 7H5V8H6V7Z" fill="#0062E1"/>
+<path d="M8 7H7V8H8V7Z" fill="#0062E1"/>
+<path d="M10 7H9V8H10V7Z" fill="#0062E1"/>
+<path d="M12 7H11V8H12V7Z" fill="#0062E1"/>
+<path d="M6 9H5V10H6V9Z" fill="#0062E1"/>
+<path d="M8 9H7V10H8V9Z" fill="#0062E1"/>
+<path d="M10 9H9V10H10V9Z" fill="#0062E1"/>
+<path d="M12 9H11V10H12V9Z" fill="#0062E1"/>
+<path d="M6 11H5V12H6V11Z" fill="#0062E1"/>
+<path d="M8 11H7V12H8V11Z" fill="#0062E1"/>
+<path d="M10 11H9V12H10V11Z" fill="#0062E1"/>
+<path d="M12 11H11V12H12V11Z" fill="#0062E1"/>
+<path d="M6 13H5V14H6V13Z" fill="#0062E1"/>
+<path d="M8 13H7V14H8V13Z" fill="#0062E1"/>
+<path d="M10 13H9V14H10V13Z" fill="#0062E1"/>
+<path d="M12 13H11V14H12V13Z" fill="#0062E1"/>
+<path d="M6 15H5V16H6V15Z" fill="#0062E1"/>
+<path d="M8 15H7V16H8V15Z" fill="#0062E1"/>
+<path d="M10 15H9V16H10V15Z" fill="#0062E1"/>
+<path d="M12 15H11V16H12V15Z" fill="#0062E1"/>
+</svg>

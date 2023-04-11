@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="page-title with-subtitle">My dashboard</h1>
+      <h2 class="page-subtitle">Section heading</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <onesource-dashboard-card padding="40px">
+        <onesource-card-left>
+          <h1 class="os-card-header">Placeholder copy</h1>
+          <h2 class="os-card-subheading">Replace this with your copy or information</h2>
+          <p class="os-card-body-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged
+          </p>
+        </onesource-card-left>
+        <onesource-card-right>
+          <h1 class="os-card-header">Placeholder copy</h1>
+          <h2 class="os-card-subheading">
+            Replace this with your copy or information
+          </h2>
+          <p class="os-card-body-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged
+          </p>
+        </onesource-card-right>
+    </onesource-dashboard-card>
+    </div>
+  </div>  
+  <div class="row">
+    <div class="col mt-3">
+      <onesource-card padding="24px">
+        <onesource-button-container>
+          <onesource-button
+            class="Primary"
+            labelText="TASK EXAMPLE"
+            [withIcon]="true"
+            iconPosition="Right"
+            iconName="icn_chevron_right"
+            [onColour]="false"
+            [disabled]="false"
+            (onClick)="goToTaskPage()"
+          ></onesource-button>
+        </onesource-button-container>
+      </onesource-card>
+    </div>
+  </div>
+</div>

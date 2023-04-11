@@ -1,0 +1,62 @@
+@import '../../styles.scss';
+
+.container {
+
+/* Style=Simple, Size=Desktop extended (1440px) */
+
+
+/* Auto layout */
+padding: 32px, 198px, 48px, 198px;
+
+position: absolute;
+width: 100%;
+height: 165px;
+top: 316px;
+bottom: 0;
+
+/* extended/extended-11-color */
+
+background: #0A2240;
+
+}
+
+:host .links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5%;
+  padding-left: 10%;
+  padding-top: 2%;
+  width: 750px;
+  @include s_bold;
+  white-space: nowrap;
+  text-transform: uppercase;
+  list-style-type: none;
+  a {
+    color: var(--white-color);
+    text-decoration: none;
+  }
+}
+
+.appear ::ng-deep svg{
+  border: 1px solid var(--white-color);
+  border-radius: 8px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  fill: var(--white-color);
+  cursor: pointer;
+}
+
+.icons-position {
+  transform: translate(65%, -175%);
+  display: flex;
+  gap: 1.5%;
+}
+
+.footer-message {
+  @include s_regular;
+  color: var(--white-color);
+  width: 737px;
+  padding-left: 10%;
+}

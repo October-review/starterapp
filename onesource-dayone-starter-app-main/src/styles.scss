@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'BentonSans';
+    background-color: var(--pale-grey-25);
+  }
+
+.row {
+    --bs-gutter-x: 16px !important;
+}
+  
+.page-content {
+    min-height: 60vh;
+    padding: 40px 0;
+
+}
+  
+.page-title {
+    color: var(--medium-grey);
+    font-family: BentonSans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 32px;
+
+    &.with-subtitle {
+        margin-bottom: 0;
+    }
+}
+.page-subtitle {
+    white-space: nowrap;
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--medium-grey); 
+    font-family: BentonSans;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title {
+    color: var(--medium-grey);
+    font-family: BentonSans;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 32px;
+}
+
+.content-title-description {
+    color: var(--medium-grey)d;
+    font-family: BentonSans;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

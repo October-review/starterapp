@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="page-title">Task name</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <onesource-card padding="32px">
+        <h1 class="os-card-header">
+            Type card heading here
+        </h1>
+        <h2 class="os-card-subheading">
+          Placeholder copy
+        </h2>
+        <p class="os-card-body-text">
+          Delete me if you don’t need me. Information inside of me is for
+          additional information, should the user want to know more
+        </p>
+      </onesource-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mt-4">
+      <onesource-card padding="32px">
+        <onesource-button-container align="between">
+          <onesource-button
+            id="cancel-button"
+            class="Secondary"
+            labelText="CANCEL"
+            [onColour]="false"
+            [disabled]="false"
+            (onClick)="goBack()"
+          ></onesource-button>
+          <onesource-button
+              id="submit-button"
+              class="Primary"
+              labelText="SUMBIT"
+              [onColour]="false"
+              [disabled]="false"
+              (onClick)="submitTask()"
+            ></onesource-button>
+        </onesource-button-container>
+      </onesource-card>
+    </div>
+  </div>
+</div>
+

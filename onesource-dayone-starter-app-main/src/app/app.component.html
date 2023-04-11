@@ -1,0 +1,32 @@
+<onesource-header
+  productNameBold="Product"
+  productName="Name"
+  [showMessageCentre]="false"
+  [signedIn]="isSignedIn"
+  [userName]="userName"
+  (onSignIn)="onSignIn()"
+  (onSignOut)="onSignOut()"
+  [showPrimaryNav]="true"
+  [showBackButton]="showBackButton"
+  [navigateBackUrl]="navigateBackUrl"
+  [homepage]="homepage"
+  [pages]="pages"
+  [quicklinks]="quickLinks"
+  [showQuickLinks]="true"
+  [profileLinks]="profileLinks"
+  (onAction)="onHeadeAction($event)"
+>
+  <!-- <onesource-header-title><b>Product</b>Name</onesource-header-title> -->
+</onesource-header>
+
+<div class="page-content">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="footer">
+  <onesource-footer
+    content="Standard Bank is a licensed financial services provider in terms of the Financial Advisory and Intermediary Services Act and a registered credit provider in terms of the National Credit Act, registration number NCRCP15"
+    [links]="links"
+    [socialMediaLinks]="socialMediaLinks"
+  ></onesource-footer>
+</div>
